@@ -33,7 +33,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" syle="display: none;">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -77,10 +77,10 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading i18n" id="xxx_endio">XXX ENDIO</h1>
-                        <p class="long-title" id="xxx_endio_long">Encuentro Nacional de Docentes en Investigación Operativa</p>
+                        <p class="long-title i18n" id="xxx_endio_long">{{PLACE HOLDER}}</p>
 
                         <h1 class="brand-heading i18n" id="xxvii_epio">XXVII EPIO</h1>
-                        <p class="long-title" id="xxvii_epio_long">Escuela de Perfeccionamiento en Investigación Operativa</p>
+                        <p class="long-title i18n" id="xxvii_epio_long">{{PLACE HOLDER}}</p>
                         <p class="intro-text"><span  class="i18n" id="may2017">May 29-30-31, 2017</span><br><span class="i18n" id="cordobaArgentina">Córdoba, Argentina</span></p>
 
                         <a href="#about-div" class="page-scroll">
@@ -97,10 +97,7 @@
         <div class="row">
             <div class="col-sd-10 col-sd-offset-1">
                 <h2 class="i18n" id="aboutENDIO_EPIO">About XXX ENDIO - XXVII EPIO</h2>
-                <p class="i18n" id="aboutENDIO_EPIOContent">
-                    Los Encuentros Nacionales De Docentes en Investigación Operativa (ENDIO) y las Jornadas de la
-                    Escuela de Perfeccionamiento en Investigación Operativa (EPIO),  congregan a docentes, investigadores, estudiantes de grado y de postgrado de diferentes carreras universitarias y por tanto, con perfiles y orígenes curriculares diversos. Ingenieros de distintas especialidades, Contadores y Licenciados en Administración, Matemáticos, Analistas en Sistemas, constituyen las profesiones más frecuentes entre los asistentes. En su mayoría, se desempeñan en asignaturas tales como Investigación Operativa, Investigación de Operaciones, Métodos Cuantitativos, Modelos y Simulación, Estadística, Operaciones, Logística, entre otras, o realizan posgrados vinculados con esas temáticas.
-                </p>
+                <p class="i18n" id="aboutENDIO_EPIOContent">{{PLACE HOLDER}}</p>
                 <h2 class="i18n" id="previousEventTitle">Previous Events</h2>
                 <table class="table">
                     <tr>
@@ -141,15 +138,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2 class="i18n" id="venueTitle">Venue - Córdoba</h2>
                     <div class="i18n lead" id="venueContent">
-                        Córdoba es un importante centro cultural, económico, educativo, financiero, turístico y de
-                        entretenimiento. Fundada el 6 de Julio de 1573 por Don Jerónimo Luis de Cabrera y dueña de una
-                        rica historia, la ciudad de Córdoba es uno de los destinos elegidos por miles de turistas.
-                        Su privilegiada ubicación en el centro de la República Argentina y a los pies de una
-                        cadena montañosa que ostenta diversos destinos turísticos. Tiene una historia muy rica,
-                        caracterizada por eventos trascendentes como la creación de la primera Universidad,
-                        la Academia Nacional de Ciencias, la Reforma Universitaria de 1918, que estructuró la
-                        Universidad Argentina actual o el movimiento popular conocido como el “Cordobazo”,
-                        ocurrido en 1969.
+                        {{PLACE HOLDER}}
                     </div>
                     <a target="_new" href="http://www.cordobaturismo.gov.ar/" class="btn btn-default btn-lg i18n" id="readMore">Read More</a>
                 </div>
@@ -163,17 +152,13 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="i18n" id="contactTitle">Contact</h2>
                 <div class="i18n" id="contactContent">
-                    <p>Nucleamos a  especialistas en investigación operativa  en el ámbito científico, para centralizar la
-                       comunicación a nivel nacional. Pretendemos llegar a estudiantes,  docentes, investigadores y empresas para
-                       promover el uso de herramientas de investigación operativa y posibilitar el intercambio de información y
-                       experiencias.
-                    </p>
+                    <p>{{PLACE HOLDER}}    </p>
                 </div>
                 <p class="i18n text-warning" id="feelFreeToContactUs">Feel free to contact at:</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a target="_new" href="http://epio.org.ar" class="btn btn-default btn-lg"><i class="fa fa-globe fa-fw"></i> <span class="network-name i18n" id="homepage">EPIO HomePage</span></a>
+                        <a target="_new" href="http://epio.org.ar" class="btn btn-default btn-lg"><i class="fa fa-globe fa-fw"></i> <span class="network-name i18n" id="homepage">EPIO</span></a>
                     </li>
                     <li>
                         <a target="_new" href="mailto:secretaria.epio@eco.uncor.edu" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name i18n" id="mail">Mail</span></a>
@@ -219,10 +204,11 @@
     <script type="text/javascript" src="js/i18n.js"></script>
 
     <script>
-        //~ $(document).ready(function(){
-            //~ var lang = navigator.language.split("-", 1)[0].toLowerCase();
-            //~ localize(".i18n", lang);
-        //~ });
+        $(document).ready(function(){
+            var lang = i18n.PARAMS_LANG || i18n.BROWSER_LANG;
+            i18n.localize(".i18n", lang, true);
+            $("body").show();
+        });
     </script>
 
 

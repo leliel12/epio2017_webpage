@@ -1,58 +1,110 @@
-DICTIONARIES = {
-    es: {
-        "pageTitle": "Scipy Latino América 2017 - La Habana",
-        "start": "Inicio",
-        "about": "Acerca de",
-        "sciPyLa2017": "Scipy Latino América 2017",
-        "may2017": "Mayo 2017",
-        "laHavanaCuba": "La Habana, Cuba.",
-        "previousEventTitle": "Ediciones previas",
-        "contact": "Contacto",
-        "aboutScipyLa": "Sobre Scipy Latino América 2017",
-        "aboutScipyLaContent": ('SciPy Latino América 2017, es la quinta conferencia anual de computación científica con Python, ' +
-                                'el encuentro sera en próximo mayo en la ciudad de la Habana, Cuba. SciPy es una comunidad dedicada ' +
-                                'al avance de la computación científico a traves de software Python open-source para matemáticas, ciencia e ingeniería'),
-        "venue": "Lugar",
-        "venueTitle": "Lugar - La Habana",
-        "venueContent": ('La Habana, capital de Cuba, es la ciudad más grande del Caribe y uno de los centros urbanos con mayor ' +
-                         'riqueza cultural en el mundo, cuyo pasado colonial queda evidenciado en la variedad de impresionantes castillos, ' +
-                         'catedrales, mansiones y museos. El histórico vecindario de La Habana Vieja es un fascinante sitio designado Patrimonio ' +
-                         'de la Humanidad por la UNESCO, con más de 900 monumentos históricos, incluyendo el Palacio Presidencial y la Plaza de la Catedral.'),
-        "readMore": "Lea más",
-        "contactTitle": "Contacto",
-        "mailingList": "Lista de correo",
-        "homepage": "SciPy Latino América",
-        "feelFreeToContactUs": "Sientase libre de contactarnos en:",
-        "contactContent": ('<p>Nucleamos a los usuarios de Python en el ámbito científico, para centralizar la comunicación a nivel regional.</p>' +
-                           '<p>Pretendemos llegar a usuarios, académicos y empresas, promover el uso de Python, intercambiar información, compartir experiencias ' +
-                               'y en general, ser el marco de referencia local en el uso y difusión de esta tecnología en la ciencia.</p>'),
-        "eventTracks": 'Talleres del evento',
-        "comingSoon" : "Este contenido no ha sido publicado todavía. <br/> Le invitamos a suscribirse para recibir una notificación cuando esté disponible."
+var i18n = {
+
+    //~ =======================================================================
+    //~ DICTS
+    //~ =======================================================================
+
+    DICTIONARIES: {
+        es: {
+            "pageTitle": "XXX ENDIO - XXVII EPIO - Córdoba 2017",
+            "start": "Inicio",
+            "about": "Acerca de",
+            "contact": "Contacto",
+            "venue": "Lugar",
+            "may2017": "29, 30 y 31 de Mayo del 2017",
+            "cordobaArgentina": "Córdoba, Argentina",
+            "previousEventTitle": "Ediciones previas",
+            "venueTitle": "Lugar - Córdoba",
+            "venueContent": ('Córdoba es un importante centro cultural, económico, educativo, financiero, turístico y de ' +
+                             'entretenimiento. Fundada el 6 de Julio de 1573 por Don Jerónimo Luis de Cabrera y dueña de una ' +
+                             'rica historia, la ciudad de Córdoba es uno de los destinos elegidos por miles de turistas. ' +
+                             'Su privilegiada ubicación en el centro de la República Argentina y a los pies de una ' +
+                             'cadena montañosa que ostenta diversos destinos turísticos. Tiene una historia muy rica, ' +
+                             'caracterizada por eventos trascendentes como la creación de la primera Universidad, ' +
+                             'la Academia Nacional de Ciencias, la Reforma Universitaria de 1918, que estructuró la ' +
+                             'Universidad Argentina actual o el movimiento popular conocido como el “Cordobazo”, ' +
+                             'ocurrido en 1969.'),
+            "readMore": "Lea más",
+            "contactTitle": "Contacto",
+            "mail": "Correo electrónico",
+            "homepage": "EPIO",
+            "feelFreeToContactUs": "Sientase libre de contactarnos en:",
+            "contactContent": ('<p>Nucleamos a  especialistas en investigación operativa  en el ámbito científico, para centralizar la ' +
+                               'comunicación a nivel nacional. Pretendemos llegar a estudiantes,  docentes, investigadores y empresas para ' +
+                               'promover el uso de herramientas de investigación operativa y posibilitar el intercambio de información y ' +
+                               'experiencias.</p>'),
+            "aboutENDIO_EPIO": "Sobre XXX ENDIO - XXVII EPIO",
+            "aboutENDIO_EPIOContent": ('Los Encuentros Nacionales De Docentes en Investigación Operativa (ENDIO) y las Jornadas de la ' +
+                                       'Escuela de Perfeccionamiento en Investigación Operativa (EPIO),  congregan a docentes, investigadores, ' +
+                                       'estudiantes de grado y de postgrado de diferentes carreras universitarias y por tanto, con perfiles ' +
+                                       'y orígenes curriculares diversos. Ingenieros de distintas especialidades, Contadores y Licenciados ' +
+                                       'en Administración, Matemáticos, Analistas en Sistemas, constituyen las profesiones más frecuentes ' +
+                                       'entre los asistentes. En su mayoría, se desempeñan en asignaturas tales como Investigación Operativa, ' +
+                                       'Investigación de Operaciones, Métodos Cuantitativos, Modelos y Simulación, Estadística, Operaciones, ' +
+                                       'Logística, entre otras, o realizan posgrados vinculados con esas temáticas.'),
+            "xxx_endio": "XXX ENDIO",
+            "xxx_endio_long": "Encuentro Nacional de Docentes en Investigación Operativa",
+            "xxvii_epio": "XXVII EPIO",
+            "xxvii_epio_long": "Escuela de Perfeccionamiento en Investigación Operativa",
+        }
+    },
+
+
+    //~ =======================================================================
+    //~ LANGUAGE CONSTANTS
+    //~ =======================================================================
+
+    PARAMS_LANG: function() {
+      // This function is anonymous, is executed immediately and
+      // the return value is assigned to QueryString!
+      var query_string = {};
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+            // If first entry with this name
+        if (typeof query_string[pair[0]] === "undefined") {
+          query_string[pair[0]] = decodeURIComponent(pair[1]);
+            // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+          var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+          query_string[pair[0]] = arr;
+            // If third or later entry with this name
+        } else {
+          query_string[pair[0]].push(decodeURIComponent(pair[1]));
+        }
+      }
+      return query_string;
+    }().lang,
+
+    BROWSER_LANG: navigator.language.split("-", 1)[0].toLowerCase(),
+
+
+    //~ =======================================================================
+    //~ FUNCTIONS
+    //~ =======================================================================
+
+    translate: function(lang, key, verbosity){
+        var dict = i18n.DICTIONARIES[lang];
+        if(!!dict){
+            var text = dict[key];
+            if(!!text){
+                return text;
+            }
+        }
+        if(verbosity)
+            console.error("key '" + key + "' not found in language '" + lang + "'.");
+        return null;
+    },
+
+    localize: function(selector, lang, verbosity){
+        $(selector).each(function(idx, elem){
+            var $elem = $(elem);
+            var elemId = $elem.attr("id");
+            var text = i18n.translate(lang, elemId, verbosity);
+            if(!!text){
+                $("#" + elemId).html(text);
+            }
+        });
     }
 }
-
-
-function translate(lang, key){
-    var dict = DICTIONARIES[lang];
-    if(!!dict){
-        var text = dict[key];
-        if(!!text){
-            return text;
-        }
-    }
-    return null;
-}
-
-
-function localize(selector, lang){
-    $(selector).each(function(idx, elem){
-        var $elem = $(elem);
-        var elemId = $elem.attr("id");
-        var text = translate(lang, elemId);
-        if(!!text){
-            $("#" + elemId).html(text);
-        }
-    });
-}
-
-
