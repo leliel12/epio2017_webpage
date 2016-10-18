@@ -1,0 +1,30 @@
+.desaturate {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+.desaturate:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+@media (min-width: 767px){
+    .content-section {
+        padding-top: 100px;
+    }
+}
+
+h1.brand-heading {
+    margin-bottom: 0px;
+}
+
+p.long-title {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
