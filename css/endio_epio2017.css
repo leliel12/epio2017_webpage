@@ -28,3 +28,12 @@ p.long-title {
     margin-bottom: 10px;
 }
 
+.btn-default {
+    border: 1px solid #99ddff;
+    color: #99ddff;
+    background-color: transparent;
+}
+
+a {
+    color: #99ddff;
+}
