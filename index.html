@@ -77,10 +77,16 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading i18n" id="xxx_endio">XXX ENDIO</h1>
-                        <p class="long-title i18n" id="xxx_endio_long">{{PLACE HOLDER}}</p>
+                        <p class="long-title i18n" id="xxx_endio_long">
+                            Teachers National Meeting on Operational Research
+                        </p>
 
                         <h1 class="brand-heading i18n" id="xxvii_epio">XXVII EPIO</h1>
-                        <p class="long-title i18n" id="xxvii_epio_long">{{PLACE HOLDER}}</p>
+                        <p class="long-title i18n" id="xxvii_epio_long">
+                            Improving School on Operational Research
+                        </p>
+
+
                         <p class="intro-text"><span  class="i18n" id="may2017">May 29-30-31, 2017</span><br><span class="i18n" id="cordobaArgentina">Córdoba, Argentina</span></p>
 
                         <a href="#about-div" class="page-scroll">
@@ -97,7 +103,17 @@
         <div class="row">
             <div class="col-sd-10 col-sd-offset-1">
                 <h2 class="i18n" id="aboutENDIO_EPIO">About XXX ENDIO - XXVII EPIO</h2>
-                <p class="i18n" id="aboutENDIO_EPIOContent">{{PLACE HOLDER}}</p>
+                <p class="i18n" id="aboutENDIO_EPIOContent">
+                    The Teachers National Meeting on Operational Research (ENDIO in Spanish)
+                    and the Improving School on Operational Research (EPIO in Spanish) congregate
+                    teachers, investigators, undergrads and graduate students from diverse
+                    university degrees and therefore with different and diverse profiles.
+                    Engineers from different specialities, Accountants and Business Administrators,
+                    Mathematicians, Systems Analysts, are the majority of the attendees.
+
+                    Most of them work on courses like Operational Research, Quantitative Methods,
+                    Simulations and Models, Statistics, Logistic to name a few.
+                </p>
 
                 <h2 class="i18n" id="instructions">Instructions for Authors</h2>
                 <p class="i18n" id="instructionsContent">{{PLACE HOLDER}}</p>
@@ -211,7 +227,7 @@
     <script>
         $(document).ready(function(){
             var lang = i18n.PARAMS_LANG || i18n.BROWSER_LANG;
-            i18n.localize(".i18n", lang, true);
+            i18n.localize(".i18n", lang, false);
             $("body").show();
         });
     </script>
