@@ -6,7 +6,7 @@ var i18n = {
 
     DICTIONARIES: {
         es: {
-            "pageTitle": "XXX ENDIO - XXVII EPIO - Córdoba 2017",
+            "pageTitle": "XXX ENDIO - XXVIII EPIO - Córdoba 2017",
             "start": "Inicio",
             "about": "Acerca de",
             "contact": "Contacto",
@@ -33,7 +33,7 @@ var i18n = {
                                'comunicación a nivel nacional. Pretendemos llegar a estudiantes,  docentes, investigadores y empresas para ' +
                                'promover el uso de herramientas de investigación operativa y posibilitar el intercambio de información y ' +
                                'experiencias.</p>'),
-            "aboutENDIO_EPIO": "Sobre XXX ENDIO - XXVII EPIO",
+            "aboutENDIO_EPIO": "Sobre XXX ENDIO - XXVIII EPIO",
             "aboutENDIO_EPIOContent": ('Los Encuentros Nacionales De Docentes en Investigación Operativa (ENDIO) y las Jornadas de la ' +
                                        'Escuela de Perfeccionamiento en Investigación Operativa (EPIO),  congregan a docentes, investigadores, ' +
                                        'estudiantes de grado y de postgrado de diferentes carreras universitarias y por tanto, con perfiles ' +
@@ -44,8 +44,8 @@ var i18n = {
                                        'Logística, entre otras, o realizan posgrados vinculados con esas temáticas.'),
             "xxx_endio": "XXX ENDIO",
             "xxx_endio_long": "Encuentro Nacional de Docentes en Investigación Operativa",
-            "xxvii_epio": "XXVII EPIO",
-            "xxvii_epio_long": "Escuela de Perfeccionamiento en Investigación Operativa",
+            "xxviii_epio": "XXVIII EPIO",
+            "xxviii_epio_long": "Escuela de Perfeccionamiento en Investigación Operativa",
             "instructions": "Modalidades para la presentación de trabajos",
             "instructionsContent": ("<p>Se contemplan las siguientes modalidades:</p>"+
                                     "<ul>" +
