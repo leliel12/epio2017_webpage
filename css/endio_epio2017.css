@@ -39,19 +39,23 @@ a, .text-a {
 }
 
 
-p#instructionsContent ul {
+div#instructionsContent ul {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
     list-style: none;
 }
 
-p#instructionsContent  ul li {
+div#instructionsContent  ul li {
     padding-left: 1em;
     text-indent: -.7em;
 }
 
-p#instructionsContent ul li:before {
+div#instructionsContent ul li:before {
     content: "• ";
     color: #99ddff;
+}
+
+div#instructionsContent  ul li p {
+    display: inline;
 }

@@ -47,16 +47,16 @@ var i18n = {
             "xxvii_epio": "XXVII EPIO",
             "xxvii_epio_long": "Escuela de Perfeccionamiento en Investigación Operativa",
             "instructions": "Modalidades para la presentación de trabajos",
-            "instructionsContent": ("Se contemplan las siguientes modalidades:"+
+            "instructionsContent": ("<p>Se contemplan las siguientes modalidades:</p>"+
                                     "<ul>" +
-                                    "<li>Resumen de  a lo sumo trescientas palabras. El Resumen debe estar " +
+                                    "<li><p>Resumen de  a lo sumo trescientas palabras. El Resumen debe estar " +
                                          "acompañado por cinco Referencias, que ayuden a ubicar sobre el marco " +
-                                         "conceptual del tema a tratar.</li>" +
-                                    "<li>Un trabajo completo, de hasta 8 páginas, incluyendo referencias.</li>" +
+                                         "conceptual del tema a tratar.</p></li>" +
+                                    "<li><p>Un trabajo completo, de hasta 8 páginas, incluyendo referencias.</p></li>" +
                                     "</ul>" +
-                                    "Para que el documento presentado se publique en los pre-anales y anales, al " +
+                                    "<p>Para que el documento presentado se publique en los pre-anales y anales, al " +
                                     "menos uno de los autores debe abonar la inscripción y defender el trabajo " +
-                                    "durante el evento.")
+                                    "durante el evento.</p>")
         }
     },
 
