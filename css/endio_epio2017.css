@@ -18,6 +18,14 @@
     }
 }
 
+@media (max-width: 767px){
+    #previous-table td{
+    display: block;
+    border: none;
+
+}
+}
+
 h1.brand-heading {
     margin-bottom: 0px;
 }
@@ -59,3 +67,6 @@ div#instructionsContent ul li:before {
 div#instructionsContent  ul li p {
     display: inline;
 }
+
+
+
