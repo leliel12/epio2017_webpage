@@ -34,6 +34,24 @@ p.long-title {
     background-color: transparent;
 }
 
-a {
+a, .text-a {
+    color: #99ddff;
+}
+
+
+p#instructionsContent ul {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+p#instructionsContent  ul li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+p#instructionsContent ul li:before {
+    content: "• ";
     color: #99ddff;
 }

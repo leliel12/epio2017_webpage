@@ -46,6 +46,17 @@ var i18n = {
             "xxx_endio_long": "Encuentro Nacional de Docentes en Investigación Operativa",
             "xxvii_epio": "XXVII EPIO",
             "xxvii_epio_long": "Escuela de Perfeccionamiento en Investigación Operativa",
+            "instructions": "Modalidades para la presentación de trabajos",
+            "instructionsContent": ("Se contemplan las siguientes modalidades:"+
+                                    "<ul>" +
+                                    "<li>Resumen de  a lo sumo trescientas palabras. El Resumen debe estar " +
+                                         "acompañado por cinco Referencias, que ayuden a ubicar sobre el marco " +
+                                         "conceptual del tema a tratar.</li>" +
+                                    "<li>Un trabajo completo, de hasta 8 páginas, incluyendo referencias.</li>" +
+                                    "</ul>" +
+                                    "Para que el documento presentado se publique en los pre-anales y anales, al " +
+                                    "menos uno de los autores debe abonar la inscripción y defender el trabajo " +
+                                    "durante el evento.")
         }
     },
 
