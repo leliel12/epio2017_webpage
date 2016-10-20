@@ -19,11 +19,10 @@
 }
 
 @media (max-width: 767px){
-    #previous-table td{
-    display: block;
-    border: none;
-
-}
+    table#previous-table td {
+        display: block;
+        border: none;
+    }
 }
 
 h1.brand-heading {
