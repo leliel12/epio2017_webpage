@@ -56,7 +56,9 @@ var i18n = {
                                     "</ul>" +
                                     "<p>Para que el documento presentado se publique en los pre-anales y anales, al " +
                                     "menos uno de los autores debe abonar la inscripción y defender el trabajo " +
-                                    "durante el evento.</p>")
+                                    "durante el evento.</p>"),
+            "importantDates": "Fechas Importantes",
+            "importantDatesContent": "Cierre presentación de Trabajos Completos y Resúmenes: 10/03/2017"
         }
     },
 

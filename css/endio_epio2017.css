@@ -67,5 +67,11 @@ div#instructionsContent  ul li p {
     display: inline;
 }
 
+.text-info-endio {
+    color: #99ddff;
+}
 
+h3 {
+    margin-bottom: 10px;
+}
 
