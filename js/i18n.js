@@ -58,7 +58,11 @@ var i18n = {
                                     "menos uno de los autores debe abonar la inscripción y defender el trabajo " +
                                     "durante el evento.</p>"),
             "importantDates": "Fechas Importantes",
-            "importantDatesContent": "Cierre presentación de Trabajos Completos y Resúmenes: 10/03/2017"
+            "importantDatesContent": "Cierre presentación de Trabajos Completos y Resúmenes: 10/03/2017",
+            "submission": "Envío de trabajos y resúmenes",
+            "submissionContent": ("Los trabajos propuestos para su evaluación y posterior exposición en el congreso, en " +
+                                  "cualquiera de sus modalidades, sólo serán recibidos a través del sistema easychair al " +
+                                  "que podrán acceder por medio del siguiente enlace: ")
         }
     },
 
