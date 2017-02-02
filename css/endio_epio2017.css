@@ -75,3 +75,23 @@ h3 {
     margin-bottom: 10px;
 }
 
+a.btn-assets {
+    text-transform: none;
+    border: 1px solid #ffa35e;
+    color: #ffa35e;
+    background-color: transparent;
+}
+
+a.btn-assets:hover {
+    border: 1px solid #d3874e;
+    outline: 0;
+    color: #000;
+    background-color: #d3874e;
+
+}
+
+.spacer {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

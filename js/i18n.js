@@ -62,7 +62,8 @@ var i18n = {
             "submission": "Envío de trabajos y resúmenes",
             "submissionContent": ("Los trabajos propuestos para su evaluación y posterior exposición en el congreso, en " +
                                   "cualquiera de sus modalidades, sólo serán recibidos a través del sistema easychair al " +
-                                  "que podrán acceder por medio del siguiente enlace: ")
+                                  "que podrán acceder por medio del siguiente enlace: "),
+            "guidelines": "Descargue aquí  las instrucciones y plantillas"
         }
     },
 
