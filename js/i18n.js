@@ -50,7 +50,7 @@ var i18n = {
             "instructionsContent": ("<p>Se contemplan las siguientes modalidades:</p>"+
                                     "<ul>" +
                                     "<li><p>Resumen de  a lo sumo trescientas palabras. El Resumen debe estar " +
-                                         "acompañado por cinco Referencias, que ayuden a ubicar sobre el marco " +
+                                         "acompañado por cinco referencias, que ayuden a ubicar sobre el marco " +
                                          "conceptual del tema a tratar.</p></li>" +
                                     "<li><p>Un trabajo completo, de hasta 8 páginas, incluyendo referencias.</p></li>" +
                                     "</ul>" +
