@@ -95,3 +95,29 @@ a.btn-assets:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+table.rate {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+}
+
+table.rate th {
+    font-weight: bold;
+    color: #99ddff;
+}
+
+ul.normal-ul {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+p#inorder {
+    margin-bottom: 10px;
+}
+
+p#banco {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: #99ddff;
+}
