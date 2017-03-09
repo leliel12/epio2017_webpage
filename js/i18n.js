@@ -76,7 +76,18 @@ var i18n = {
             "regTNonPartner": "No-Socio",
             "regTUnderGrad": "Estudiante de Grado",
             "regTPartnerFee": "Cuota socio",
-            "regTEntranceFee": "Cuota Ingreso"
+            "regTEntranceFee": "Cuota Ingreso",
+            "grad1": "Los estudiantes de posgrado tendrán un descuento del 50% de la inscripción. Para acceder a este beneficio se solicitará una constancia de alumno regular.",
+            "grad2": "Los estudiantes de posgrado que sean socios abonarán una inscripción anticipada de $ 400 y tardía de $ 450 y los no socios una inscripción anticipada de $1.100 y tardía de $ 1250.",
+            "wipartner": "Se recuerda que se considera como socio de EPIO a los socios de SOBRAPO, de ICHIO y de Eureka  que presenten comprobante de cuota al día.",
+            "inorder": "Para que un socio EPIO pueda beneficiarse del valor de dicha categoría, deberá poseer su cuota al día, es decir que la correspondiente al año 2017, debe abonarse al momento de pagar la inscripción.",
+            "contribRates": (
+                "<li>Valor cuota año 2016 $ 450,00</li>" +
+                "<li>Valor cuota año 2017 $ 600,00</li>"),
+            "earlyreg": "<strong>El Pago anticipado</strong> se recibirá <strong>hasta el día 21/04/17</strong>. Este pago dará derecho a la publicación del trabajo aceptado, en la web de EPIO en el Pre-Anal del Congreso, si correspondiere.",
+            "entitles": "El pago hasta el <strong>21/04/17</strong> da derecho a la inclusión del trabajo en el Programa del Congreso a fin de ser expuesto y siempre que el/los autores hayan efectuado su inscripción electrónica.",
+            "paymeans": "El medio de pago será por transferencia bancaria a:",
+            "foreign": "Los participantes extranjeros, sean o no expositores, por razones de restricciones de la cuenta bancaria, el valor previsto hasta el 21/04/17, al momento de hacerse presente en el evento, siempre que envíen a la cuenta <a href='mailto:secretaria.epio@uncor.edu'>secretaria.epio@uncor.edu</a> comprobante de vuelo u otro, que acredite su intención en participar del mismo. Caso contrario deberán abonar el valor previsto hasta el inicio del evento."
         }
     },
 
