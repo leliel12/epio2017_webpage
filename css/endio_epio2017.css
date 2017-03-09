@@ -121,3 +121,7 @@ p#banco {
     font-weight: bold;
     color: #99ddff;
 }
+
+.text-danger {
+    color: #ffa35e !important;
+}

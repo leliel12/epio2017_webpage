@@ -58,12 +58,25 @@ var i18n = {
                                     "menos uno de los autores debe abonar la inscripción y defender el trabajo " +
                                     "durante el evento.</p>"),
             "importantDates": "Fechas Importantes",
-            "importantDatesContent": "Cierre presentación de Trabajos Completos y Resúmenes: 10/03/2017",
+            "importantDatesContent": "Cierre presentación de Trabajos Completos y Resúmenes: <small><s>10/03/2017</s></small> <span class='text-danger'>27/03/2017</span>",
             "submission": "Envío de trabajos y resúmenes",
             "submissionContent": ("Los trabajos propuestos para su evaluación y posterior exposición en el congreso, en " +
                                   "cualquiera de sus modalidades, sólo serán recibidos a través del sistema easychair al " +
                                   "que podrán acceder por medio del siguiente enlace: "),
-            "guidelines": "Descargue aquí  las instrucciones y plantillas"
+            "guidelines": "Descargue aquí  las instrucciones y plantillas",
+            "invited-speakers": "Disertantes Invitados",
+            "speakersTitle": "Disertantes Invitados",
+            "regTitle": "Registración",
+            "register": "Registración",
+            "regRates": "Aranceles",
+            "regTType": "Tipo",
+            "regTEarlyBird": "Temprana",
+            "regTStandar": "Tardía",
+            "regTPartner": "Socio",
+            "regTNonPartner": "No-Socio",
+            "regTUnderGrad": "Estudiante de Grado",
+            "regTPartnerFee": "Cuota socio",
+            "regTEntranceFee": "Cuota Ingreso"
         }
     },
 
