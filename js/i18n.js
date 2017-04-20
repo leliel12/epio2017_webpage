@@ -84,10 +84,12 @@ var i18n = {
             "contribRates": (
                 "<li>Valor cuota año 2016 $ 450,00</li>" +
                 "<li>Valor cuota año 2017 $ 600,00</li>"),
-            "earlyreg": "<strong>El Pago anticipado</strong> se recibirá <strong>hasta el día 21/04/17</strong>. Este pago dará derecho a la publicación del trabajo aceptado, en la web de EPIO en el Pre-Anal del Congreso, si correspondiere.",
-            "entitles": "El pago hasta el <strong>21/04/17</strong> da derecho a la inclusión del trabajo en el Programa del Congreso a fin de ser expuesto y siempre que el/los autores hayan efectuado su inscripción electrónica.",
+            "earlyreg": "<strong>El Pago anticipado</strong> se recibirá <strong>hasta el día 03/05/2017</strong>. Este pago dará derecho a la publicación del trabajo aceptado, en la web de EPIO en el Pre-Anal del Congreso, si correspondiere.",
+            "entitles": "El pago hasta el <strong>03/05/2017</strong> da derecho a la inclusión del trabajo en el Programa del Congreso a fin de ser expuesto y siempre que el/los autores hayan efectuado su inscripción electrónica.",
             "paymeans": "El medio de pago será por transferencia bancaria a:",
-            "foreign": "Los participantes extranjeros, sean o no expositores, por razones de restricciones de la cuenta bancaria, el valor previsto hasta el 21/04/17, al momento de hacerse presente en el evento, siempre que envíen a la cuenta <a href='mailto:secretaria.epio@uncor.edu'>secretaria.epio@uncor.edu</a> comprobante de vuelo u otro, que acredite su intención en participar del mismo. Caso contrario deberán abonar el valor previsto hasta el inicio del evento."
+            "foreign": "Los participantes extranjeros, sean o no expositores, por razones de restricciones de la cuenta bancaria, el valor previsto hasta el 03/05/2017, al momento de hacerse presente en el evento, siempre que envíen a la cuenta <a href='mailto:secretaria.epio@uncor.edu'>secretaria.epio@uncor.edu</a> comprobante de vuelo u otro, que acredite su intención en participar del mismo. Caso contrario deberán abonar el valor previsto hasta el inicio del evento.",
+            "sigup": "Registrarse",
+            "infoturistica": "Información Turística"
         }
     },
 
