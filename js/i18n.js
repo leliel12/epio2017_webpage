@@ -89,7 +89,9 @@ var i18n = {
             "paymeans": "El medio de pago será por transferencia bancaria a:",
             "foreign": "Los participantes extranjeros, sean o no expositores, por razones de restricciones de la cuenta bancaria, el valor previsto hasta el 03/05/2017, al momento de hacerse presente en el evento, siempre que envíen a la cuenta <a href='mailto:secretaria.epio@uncor.edu'>secretaria.epio@uncor.edu</a> comprobante de vuelo u otro, que acredite su intención en participar del mismo. Caso contrario deberán abonar el valor previsto hasta el inicio del evento.",
             "sigup": "Registrarse",
-            "infoturistica": "Información Turística"
+            "infoturistica": "Información Turística",
+            "mapTitle": "Como llegar",
+            "mapConfTitle": "Plano del Edificio"
         }
     },
 
