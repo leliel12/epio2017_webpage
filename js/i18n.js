@@ -91,7 +91,8 @@ var i18n = {
             "sigup": "Registrarse",
             "infoturistica": "Información Turística",
             "mapTitle": "Como llegar",
-            "mapConfTitle": "Plano del Edificio"
+            "mapConfTitle": "Plano del Edificio",
+            "program": "Programa"
         }
     },
 
